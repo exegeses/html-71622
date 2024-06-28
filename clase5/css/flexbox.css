@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #1b1b1b;
+}
+main{
+    width: 768px;
+    margin: auto;
+}
+
+section{
+    height: 380px;
+    margin-top: 64px;
+    background-color: hsl(0, 0%, 18%);
+}
+
+#horizontal{
+    display: flex; 
+    /* Para distribuir elementos contenidos 
+    en el eje horizontal utilizamos justify-content */
+    /* justify-content: start; /* Predeterminado: hacia la izquierda */
+    /* justify-content: end; /* Hacia la derecha */
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+#vertical{
+    display: flex;
+    /* Para distribuir elementos contenidos 
+    en el eje vertical utilizamos align-items */
+    /* align-items: start; /* Predeterminado: en la parte superior */
+    /* align-items: end; /* En la parte inferior */
+    align-items: center;
+}
+#medio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+article{
+    width: 96px;
+    height: 96px;
+    background-color: #7cf0db;
+}

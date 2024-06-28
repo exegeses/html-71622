@@ -1,0 +1,22 @@
+body{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: #1e1e1e;
+}
+main{
+    margin: 64px;
+    background-color: hsl(0, 0%, 18%);
+}
+article{
+    width: 128px;
+    height: 128px;
+    margin: 32px;
+    background-color: #b4fcd9;
+}
+section{
+    width: 680px;
+    height: 96px;
+    margin: auto;
+    background-color: #000;
+}

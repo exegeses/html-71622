@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+}
+    main{
+        background-color: #e3e3e3;
+    }
+    #contenedor{
+        width: 768px;
+        height: 380px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
