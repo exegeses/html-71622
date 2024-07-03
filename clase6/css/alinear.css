@@ -1,0 +1,25 @@
+body{
+    background-color: #484848;
+    color: #fff;
+}
+    main{
+        width: 768px;
+        margin: auto;
+    }
+
+    #alinear{
+        margin: 64px 0px;
+        height: 380px;
+        background-color: #282828;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+        #alinear article{
+            width: 96px;
+            height: 96px;
+            background-color: #b1faeb;
+            border: 1px solid #374f4a;
+        }
+
