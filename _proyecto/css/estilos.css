@@ -67,12 +67,44 @@ background: linear-gradient(180deg, #5B86E5, #37D2DC);
     width: 1100px;
     height: 414px;
     margin: 72px auto 0px auto;
-
-    background-color: #efbbbb;
+    padding: 32px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
     #servicios h3{
+        width: 100%;
         font-size: 24px;
         font-weight: normal;
         color: #202630;
         text-align: center;
     }
+
+    #servicios article{
+        width: 336px;
+        height: 289px;
+        padding: 24px 28px;
+        border: 2px solid #07B2FF;
+        border-radius: 8px;
+    }
+        #servicios article h2{
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 300;
+            color: #07B2FF;
+        }
+        #servicios article p{
+            margin-bottom: 8px;
+            color: #07B2FF;
+        }
+        #servicios article a{
+            color: #07B2FF;
+            text-decoration: none;
+        }
+
+/* footer */
+footer{
+    width: 1100px;
+    height: 216px;
+    background-color: #0B1E46;
+}
