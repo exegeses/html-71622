@@ -103,8 +103,20 @@ background: linear-gradient(180deg, #5B86E5, #37D2DC);
         }
 
 /* footer */
-footer{
-    width: 1100px;
+footer{    
     height: 216px;
+    margin-top: 72px;
     background-color: #0B1E46;
 }
+    footer div{
+        width: 1100px;
+        height: 216px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        footer div nav a{
+            margin: 16px;
+        }
